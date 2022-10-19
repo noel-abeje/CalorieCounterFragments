@@ -47,7 +47,6 @@ class AddFragment : Fragment() {
             mCalorieViewModel.addFood(info)
             Toast.makeText(requireContext(), "Succeddfully added!", Toast.LENGTH_LONG).show()
             //Navigate back
-            findNavController().navigate(R.id.action_addFragment_to_listFragment)
 
         }else{
             Toast.makeText(requireContext(),"Please fill out all fields.", Toast.LENGTH_LONG).show()
